@@ -1,6 +1,10 @@
-function addNumbers(a,b) {
+var exports = module.exports = {};
+
+exports.addNumbers = function(a,b) {
   return a + b;
 
 }
 
-module.exports = addNumbers;
+exports.multiplyNumbers = function(a,b){
+  return a * b;
+}
