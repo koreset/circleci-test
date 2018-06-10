@@ -1,0 +1,14 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "A dumb js program for CircleCI",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Jomski",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.1.0"
+  }
+}
